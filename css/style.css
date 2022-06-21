@@ -1,6 +1,6 @@
 a
-
 /*Обнуление*/
+
 html,
 body,
 div,
@@ -91,7 +91,9 @@ video {
     text-decoration: none;
 }
 
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -133,11 +135,10 @@ table {
     border-spacing: 0;
 }
 
+
 /*--------------------*/
 
-
 body {
-
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -146,8 +147,8 @@ body {
     margin: 0 auto;
 }
 
-/*Header*/
 
+/*Header*/
 
 .header {
     display: flex;
@@ -167,13 +168,11 @@ body {
 .header ul {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .header .menu_link {
     text-transform: uppercase;
     color: #868686;
-
 }
 
 .header a {
@@ -198,7 +197,6 @@ body {
     color: #ffffff;
     border: 1px solid #add136;
 }
-
 
 
 /*main*/
@@ -259,11 +257,7 @@ body {
 }
 
 
-
-
 /*work*/
-
-
 
 .work {}
 
@@ -276,7 +270,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 .work .work_columns_item-img {
@@ -316,10 +309,7 @@ body {
 .work hr {}
 
 
-
 /*numblist*/
-
-
 
 .numblist {
     margin-bottom: 103px;
@@ -375,10 +365,7 @@ body {
 }
 
 
-
 /*browse*/
-
-
 
 .browse {
     padding-bottom: 107px;
@@ -403,7 +390,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 650px;
-
 }
 
 .browse h2 {
@@ -425,11 +411,7 @@ body {
 }
 
 
-
-
 /*find*/
-
-
 
 .wrapper_find {
     width: 100%;
@@ -458,7 +440,6 @@ body {
 .find_column-img {
     max-width: 133px;
     max-height: 112px;
-
 }
 
 .find_column-body {
@@ -486,7 +467,6 @@ body {
 }
 
 .find_column-body a {
-
     background-color: #26a6d1;
     text-align: center;
     border-radius: 10px;
@@ -499,13 +479,7 @@ body {
 }
 
 
-
-
-
 /*Project*/
-
-
-
 
 .project {
     margin-top: 81px;
@@ -575,7 +549,6 @@ body {
     align-items: center;
     background-color: #f7f7f7;
     box-shadow: 10px;
-
 }
 
 .project .project_column_item-img {
@@ -586,8 +559,6 @@ body {
 
 .project .project_column_item-body {
     max-width: 70%;
-
-
 }
 
 .project .project_column_item-body h2 {
@@ -610,25 +581,21 @@ body {
 }
 
 .project_column_item-body span {
-
     display: inline-block;
     background-color: #e3e3e3;
     border-left: 30px solid #add136;
     border-radius: 10px;
     width: 80%;
     padding: 7px;
-
 }
 
 .project_column_item-body .span_two {
-
     display: inline-block;
     background-color: #e3e3e3;
     border-left: 150px solid #add136;
     border-radius: 10px;
     width: 30%;
     padding: 7px;
-
 }
 
 .project .procent {
@@ -678,10 +645,7 @@ body {
 }
 
 
-
 /*Review*/
-
-
 
 .reviews_overlay {
     background: url(../img/background2.png) no-repeat;
@@ -744,7 +708,6 @@ body {
 
 .review_column-text p {
     max-width: 60%;
-
 }
 
 .review_column-text h3 {
@@ -778,11 +741,7 @@ body {
 }
 
 
-
-
 /*mm*/
-
-
 
 .mm {
     margin-top: 45px;
@@ -798,15 +757,10 @@ body {
 .mm_items {
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 
-
 /*footer*/
-
-
 
 .footer {
     display: flex;
@@ -815,24 +769,21 @@ body {
     border-top: 1px solid #efefef;
 }
 
+
 /* Стили для десктопа - начало */
 
 @media screen and (max-width: 991px) {
     /* стили для больших планшетов - начало */
-
     .container {
         max-width: 80%;
         margin: 0 auto;
     }
-
     .header {
         flex-direction: column;
     }
-
     .header .menu {
         min-width: 95%;
     }
-
     .numblist .numblist_columns {
         display: flex;
         justify-content: space-between;
@@ -840,20 +791,16 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
     .review_column-text p {
         max-width: 60%;
         font-size: 12px;
     }
-
-
     .review_column-person {
         max-width: 170px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     .browse {
         padding-bottom: 107px;
         text-align: center;
@@ -861,21 +808,17 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-
     /* стили для средних планшетов - начало */
     .container {
         max-width: 90%;
         margin: 0 auto;
     }
-
     .header {
         flex-direction: column;
     }
-
     .header .menu {
         min-width: 95%;
     }
-
     .numblist .numblist_columns {
         display: flex;
         justify-content: space-between;
@@ -883,12 +826,10 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
     .browse {
         padding-bottom: 107px;
         text-align: center;
     }
-
     .project .project_title p {
         font-family: 'Open Sans';
         font-size: 17.2px;
@@ -897,24 +838,19 @@ body {
         color: #8f8f8f;
         padding-bottom: 60px;
     }
-
     .project .project_title {
         max-width: 90%;
         text-align: center;
     }
-
     .review_column-text {
         text-align: center;
         background: url(../img/message.png) no-repeat;
         background-size: 95% 55%;
         min-height: 166px;
     }
-
     .review_column-text p {
         max-width: 90%;
-
     }
-
     .review_column-text h3 {
         max-width: 90%;
         font-family: 'Open Sans';
@@ -923,50 +859,48 @@ body {
         font-weight: 600;
         color: #9ec02d;
     }
-
     .review_column-person {
         max-width: 170px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
 }
 
 @media screen and (max-width: 479px) {
-
     /* стили для телефонов - начало */
     .header {
         text-align: center;
         flex-direction: column;
     }
-
     .header ul {
-
         flex-direction: column;
     }
-
     .header .menu {
         min-width: 55%;
     }
-
     .browse {
         padding-bottom: 107px;
         text-align: center;
     }
-
+    .reviews_columns {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+    .review_column {
+        margin: 20px;
+    }
     .review_column-text {
         text-align: center;
         background: url(../img/message.png) no-repeat;
         background-size: 98% 100%;
         min-height: 166px;
     }
-
     .review_column-text p {
         max-width: 90%;
         font-size: 12px;
     }
-
     .review_column-text h3 {
         max-width: 90%;
         font-family: 'Open Sans';
@@ -975,11 +909,25 @@ body {
         font-weight: 600;
         color: #9ec02d;
     }
-
     .review_column-person {
         max-width: 170px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .wrapper_find {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #e2f8ff 50%, #f5f9eb 50%);
+    }
+    .find_columns {
+        flex-direction: column;
+        padding-top: 46px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 47px;
+    }
+    .find_column a {
+        margin: 50px;
     }
 }
